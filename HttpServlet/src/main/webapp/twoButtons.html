@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+    .container{
+        height: 500px;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        padding-top: 40px;
+        width: 250px;
+        height: 200px;
+       
+        background-color: white;
+        padding-left: 40px;
+        box-shadow: 10px 10px 20px red;
+        border-radius: 15px;
+
+    }
+    .main:hover{
+        box-shadow: -10px 10px 20px purple;
+
+    }
+ .btn1{
+
+            display: flex;
+            
+            justify-content: center;
+            margin-right: 180px;
+        }
+        #home{
+            height: 40px;
+            width: 80px;
+            padding: 8px 8px;
+            
+            border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: rebeccapurple;
+            font-weight: bold;
+            color: black;
+        }
+        .btn1 :hover{
+            background-color: black;
+            color: white;
+            box-shadow: 10px 10px 20px blue;
+        }
+        .ps{
+            margin-top: 100px;
+            color: purple;
+            font-weight: bold;
+        }
+</style>
+<body>
+<div class="container">
+<div class="main">
+    <form action="eightlink" method="post">
+
+        <label  class="ps">ENTER FIRST NO</label>
+        <input class="ps1" type="text" name="no1"><br><br>
+        
+        <label class="ps">ENTER SECOND NO</label>
+        <input class="ps1" type="text" name="no2"><br><br>
+        
+        <input type="submit" name="btn" value="ADD">
+        
+        <input type="submit" name="btn" value="MULTI">
+        
+        </form>
+</div>
+</div>
+ 
+<br><br>
+<div class="btn1">
+    <button id="home"><a  href="index.html">HOME</a></button> 
+</div>
+</body>
+</html>

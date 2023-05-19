@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+  <style>
+  
+        body
+        {
+            
+             background-color: white;       
+        }
+        
+        .container{
+            height: 500px;
+            /* display: flex; */
+            /* border: 2px solid black; */
+            padding: 20px 20px;
+            justify-content: center;
+            align-items: center;
+            padding-top: 100px;
+            width: 350px;
+            margin-left: 500px;
+        }
+        h1 i{
+            margin-left: 50px;
+            text-shadow: 2px 2px  pink;
+            padding-bottom: 100px;
+        }
+        
+        .main{
+            height: 400px;
+            padding: 10px 30px;
+            padding-bottom: 40px;
+            width: 83%;
+            
+            background-color: #F5F5F5;
+            border-radius: 30px;
+            box-shadow: 10px 10px  30px red;
+
+        }
+        .main:hover{
+            /* border: 2px solid red; */
+            /* box-shadow:none; */
+            box-shadow: -10px 10px  30px yellow;
+           /* border-top: 5px solid red;
+            border-bottom: 5px solid black;
+            border-left: 5px solid green;
+            border-right: 5px solid blue;*/
+            /* border-top-left-radius: -50px; */
+           
+
+
+        }
+            .ps1{
+            color: orangered;
+            font-weight: bold;
+            margin: 5px 5px;
+            
+        }
+        .ps{
+            margin: 5px;
+        }
+        .container #sub{
+            margin: 20px 20px;
+            margin-left: 80px;
+            
+        }
+        input[type="reset"]
+        {
+            margin-left: 20px;
+            padding: 8px 8px;
+            width: 80px;
+            border-radius: 10px;
+        }
+        input[type="reset"]:hover{
+            background-color: red;
+            color: white;
+            box-shadow: 10px 10px 20px red;
+            font-weight: bold;
+        }
+        input[type="submit"]
+        {
+            padding: 8px 8px;
+            width: 80px;
+            border-radius: 10px;
+        }
+        input[type="submit"]:hover{
+            background-color: green;
+            color: white;
+            box-shadow: 10px 10px 20px red;
+            font-weight: bold;
+
+        }
+        input[type="text"]
+        {
+            padding: 5px 5px;
+            width: 150px;
+            border-radius: 10px;
+        }
+        ::placeholder{
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+            padding-left: 5px;
+            font-size: 10px;
+        }
+        ::placeholder:hover{
+            font-weight: bold;
+           color: purple;
+           background-color: black;
+        }
+        .op{
+            font-weight: bold;
+        }
+         .btn1{
+
+            display: flex;
+            /* border: 2px solid red; */
+            justify-content: center;
+            margin-right: 180px;
+        }
+        #home{
+            height: 40px;
+            width: 80px;
+            padding: 8px 8px;
+            
+            border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: rebeccapurple;
+            font-weight: bold;
+            color: black;
+        }
+        .btn1 :hover{
+            background-color: black;
+            color: white;
+            box-shadow: 10px 10px 20px blue;
+        }
+
+    </style>
+
+</head>
+<body>
+ <div class="container">
+       
+        <div class="main">
+            <h1><i style="color: black;">Student Details</i></h1>
+        <form action="fivelink" method="post">
+
+        <label class="ps1">FirstName</label>
+        <input class="ps" placeholder="ENTER FIRSTNAME" type="text" name="first">
+        <br>
+        <br>
+
+        <label class="ps1"  >LastName</label>
+        <input class="ps" placeholder="ENTER LASTNAME" type="text" name="last">
+        <br>
+        <br>
+        <label class="ps1" >Contact</label>
+        <input class="ps" placeholder="ENTER CONTACT_NO" type="text" name="cont">
+        <br>
+        <br>
+        <label class="ps1">Gender</label>
+        <input class="ps" placeholder="select your gender" type="radio" name="gender" value="male">male
+        <input class="ps" type="radio" name="gender" value="female">Female
+        <br>
+        <br>
+        <label class="ps1">Branch</label>
+        <select  name="branch">
+            <option value="" class="op">select</option> 
+            <option value="MSC" class="op">msc</option>
+            <option value="MTECH" class="op">mtech</option>
+            <option value="BTECH" class="op">btech</option>
+        </select>
+        <br>
+        <br>
+        <input class="ps" id="res" type="reset" name="RESET">
+
+        <input class="ps" id="sub" type="submit" name="SUBMIT">
+      </from>
+    </div>
+    </div>
+<div class="btn1">
+    <button id="home"><a  href="index.html">HOME</a></button> 
+</div>    
+</body>
+</html> 

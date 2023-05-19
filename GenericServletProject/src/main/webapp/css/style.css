@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+.container{
+	
+	margin-top:25%;
+	margin-left: 45%;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+button{
+background-color:grey;
+border:2px solid purple;
+padding:5px 10px;
+border-radius:10px;
+}
+button:hover {
+	background-color: black;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Product</title>
+<link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+<style>
+.container{
+
+display:flex;
+justify-content: center;
+align-items: center;
+height:500px;
+}
+.main{
+background-color:white;
+padding: 30px 30px;
+box-shadow: 10px 10px 15px yellow;
+border-radius: 20px;
+margin-top: 200px;
+
+}
+.main:hover{
+box-shadow: 10px 10px 15px black;
+border: none;
+}
+.btn{
+margin-top:10px;
+	margin-left: 100px;
+}
+label{
+margin-top:20px;
+font-weight: bold;
+}
+h3{
+	color:purple;
+	text-shadow:2px 2px white;
+	
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="main">
+<h3>PRODUCT CALCULATOR</h3>
+
+<form action="onelink" method="post">
+<label>Product QTY </label>
+<input type="text" name=productqty>
+<br> <br>
+<label>Product Price </label>
+<input type="text" name="productprice">
+<br>
+<br>
+<input class="btn btn-primary" type="submit" value="GET BILL">
+</form>
+</div>
+
+</div>
+
+
+</body>
+</html>
