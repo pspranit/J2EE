@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login page</title>
+ <style>
+      body{
+                  background-color: white;
+      
+      }
+        .container{
+            height: 500px;
+            padding: 20px 20px;
+            justify-content: center;
+            align-items: center;
+            padding-top: 100px;
+            width: 350px;
+            margin-left: 500px;
+        }
+        h1 i{
+            margin-left: 138px;
+            text-shadow: 2px 2px  yellow;
+            padding-bottom: 100px;
+            
+        }
+        
+        .main{ 
+            height: 220px;
+            padding: 330px 30px;
+            padding-bottom: 40px;
+            width: 70%;
+            padding-top: 50px;
+            border-radius:15px;
+            background-color: #F5F5F5;
+            box-shadow: 10px 10px  30px pink;
+            margin-left: 40px;
+
+        }
+        
+            .ps1{
+            color: orangered;
+            font-weight: bold;
+            margin: 5px 5px;
+            margin-left: 40px;    
+            
+        }
+        .ps{
+            margin: 5px;
+            margin-left: 38px;
+
+        }
+        .container #sub{
+            margin: 20px 20px;
+            margin-left: 80px;
+            
+        }
+        input[type="reset"]
+        {
+            margin-left: 20px;
+            padding: 8px 8px;
+            width: 80px;
+            border-radius: 10px;
+        }
+        input[type="reset"]:hover{
+            background-color: red;
+            color: white;
+            box-shadow: 10px 10px 20px red;
+            font-weight: bold;
+        }
+        input[type="submit"]
+        {
+        font-weight:bold;
+            padding: 8px 8px;
+            width: 80px;
+            border-radius: 10px;
+        }
+        input[type="submit"]:hover{
+            background-color: green;
+            color: white;
+            box-shadow: 10px 10px 20px red;
+            font-weight: bold;
+			transition:0.5s;
+        }
+        input[type="text"]
+        {
+            padding: 5px 5px;
+            width: 150px;
+            border-radius: 10px;
+        }
+        
+        input[type="password"]
+        {
+            padding: 5px 5px;
+            width: 150px;
+            border-radius: 10px;
+        }
+        .op{
+            font-weight: bold;
+        }
+        ::placeholder{
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+            padding-left: 5px;
+            font-size: 11px;
+        }
+        ::placeholder:hover{
+            font-weight: bold;
+           color: purple;
+           background-color: black;
+        }
+        .btn1{
+
+            display: flex;
+            /* border: 2px solid red; */
+            justify-content: center;
+            margin-right: 113px;
+            margin-top: 25px;
+            margin-left: 140px;
+        }
+        #home{
+            height: 40px;
+            width: 80px;
+            padding: 8px 8px;
+            
+            border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: rebeccapurple;
+            font-weight: bold;
+            color: black;
+        }
+        .btn1 :hover{
+            background-color: black;
+            color: white;
+            box-shadow: 10px 10px 20px blue;
+            transition: 0.4s;
+            
+        }
+        .demo{
+                    font-weight: lighter;
+                    margin-left: 110px;
+                    color:grey;
+                            transition: 0.7s;
+                    
+        }
+        .demo:hover {
+        color:purple;
+        font-weight: 20px;
+        font-size: 17px;
+        transition: 0.7s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i style="color: grey;">LOGIN</i></h1>
+
+     <div class="main">
+    
+        <form action="loginlink" method="post">
+        <label class="ps1" for="">Enter Username</label>
+        <input placeholder="enter user name" class="ps" type="text" name="user" id=""><br><br>
+    
+        <label class="ps1" for="">Enter Password</label>
+        <input placeholder="enter password" class="ps" type="password" name="pass" id=""><br><br>
+    		
+    		<a class="demo" href="register.html">Create Account</a>
+    
+         <input class="ps" id="sub" type="submit" value="LOGIN">
+    
+    </form>
+   </div>
+ <div class="btn1">
+    <button id="home"><a  href="index.html">HOME</a></button> 
+</div>  
+   
+</div>
+
+</body>
+</html>

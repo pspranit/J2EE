@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Page</title>
+
+  <style>
+  
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+    
+    *{
+    font-family: 'Montserrat', sans-serif;
+    }
+        body
+        {
+            
+             background-color: white;       
+        }
+        
+        .container{
+            height: 500px;
+            /* display: flex; */
+            /* border: 2px solid black; */
+            padding: 20px 20px;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+            width: 350px;
+            margin-left: 500px;
+        }
+        h1 i{
+            margin-left: 30px;
+            text-shadow: 2px 2px  pink;
+            padding-bottom: 100px;
+        }
+        
+        .main{
+            height: 450px;
+            padding: 10px 30px;
+            padding-bottom: 40px;
+            width: 83%;
+            
+            background-color: #F5F5F5;
+            border-radius: 30px;
+            box-shadow: 10px 10px  30px red;
+            transition: 0.4s ease-out;
+            
+
+        }
+        .main:hover{
+            transition: 0.4s;
+            box-shadow: -10px 10px  30px yellow;
+
+        }
+            .ps1{
+            color: orangered;
+            font-weight: bold;
+            margin: 5px 5px;
+            
+        }
+        .ps{
+            margin: 5px;
+        }
+        .container #sub{
+            margin: 20px 20px;
+            margin-left: 80px;
+            
+        }
+        input[type="reset"]
+        {
+            margin-left: 20px;
+            padding: 8px 8px;
+            width: 80px;
+            border-radius: 10px;
+        }
+        input[type="reset"]:hover{
+            background-color: red;
+            color: white;
+            box-shadow: 10px 10px 20px red;
+            font-weight: bold;
+        }
+        input[type="submit"]
+        {
+            padding: 8px 8px;
+            width: 80px;
+            border-radius: 10px;
+        }
+        input[type="submit"]:hover{
+            background-color: green;
+            color: white;
+            box-shadow: 10px 10px 20px red;
+            font-weight: bold;
+
+        }
+        input[type="text"]
+        {
+            padding: 5px 5px;
+            width: 150px;
+            border-radius: 10px;
+        }
+        ::placeholder{
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+            padding-left: 5px;
+            font-size: 10px;
+        }
+        ::placeholder:hover{
+            font-weight: bold;
+           color: purple;
+           background-color: black;
+        }
+        
+         .btn1{
+
+            display: flex;
+            /* border: 2px solid red; */
+            justify-content: center;
+            margin-right: 120px;
+        }
+        #home{
+            height: 40px;
+            width: 80px;
+            padding: 8px 8px;
+            
+            border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: rebeccapurple;
+            font-weight: bold;
+            color: black;
+        }
+        .btn1 :hover{
+            background-color: black;
+            color: white;
+            box-shadow: 10px 10px 20px blue;
+            transition: 0.4s;
+            
+        }
+
+    </style>
+
+</head>
+<body>
+ <div class="container">
+       
+        <div class="main">
+            <h1><i style="color: black;">Registration</i></h1>
+            
+        <form action="registerlink" method="post">
+
+        <label class="ps1">UserName</label>
+        <input class="ps" placeholder="ENTER USER NAME" type="text" name="username">
+        <br>
+        <br>
+        <label class="ps1" >Contact No</label>
+        <input class="ps" placeholder="ENTER CONTACT_NO" type="text" name="contact">
+        <br>
+        <br>
+        <label class="ps1" >Address</label>
+        <input class="ps" placeholder="ENTER ADDRESS" type="text" name="address">
+        <br>
+        <br>
+        <label class="ps1" >Email Id</label>
+        <input class="ps" placeholder="ENTER EMAIL ID" type="text" name="email">
+        <br>
+        <br>
+        <label class="ps1" >Password</label>
+        <input class="ps" placeholder="ENTER PASSWORD" type="text" name="password">
+        <br>
+        <br>
+        <label class="ps1">Gender</label>
+        <input class="ps" placeholder="select your gender" type="radio" name="gender" value="male">male
+        <input class="ps" type="radio" name="gender" value="female">Female
+        <br>
+        <br>
+       
+        <input class="ps" id="res" type="reset" name="RESET">
+
+        <input class="ps" id="sub" type="submit" name="SUBMIT">
+      </from>
+    </div>
+    </div>
+    <br>
+<div class="btn1">
+    <button id="home"><a  href="index.html">HOME</a></button> 
+</div>    
+</body>
+</html> 
