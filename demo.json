@@ -1,0 +1,12 @@
+{
+  "BundleComponents": {
+    "BundleComponent": [
+      {
+        "Type": "TUCReportV6"
+      },
+      {
+        "Type": "EQFReportV6"
+      }
+    ]
+  }
+}
